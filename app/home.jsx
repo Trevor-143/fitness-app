@@ -5,6 +5,7 @@ import { StatusBar } from 'expo-status-bar'
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import ImageSlider from '../components/ImageSlider';
+import Walls from '../components/Walls'
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
                 style={{ fontSize: hp(2.5) }}
                 className=" font-black tracking-wider text-red-800 "
             >
-                Arapu Trevor
+                Grace Homelander
             </Text>
         </View>
         <View className="flex justify-center items-center space-y-2">
@@ -42,6 +43,11 @@ export default function Home() {
       <View>
         <ImageSlider />
       </View>
+
+      <View className="flex-1 ">
+        <Walls />
+      </View>
+
     </SafeAreaView>
   )
 }

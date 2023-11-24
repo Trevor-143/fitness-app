@@ -25,7 +25,7 @@ export default function ImageSlider() {
 
 const ItemCard = ({ item, index }, parallaxProps ) => {
     return(
-        <View style={{ width: wp(100)-70, height: hp(35) }} >
+        <View style={{ width: wp(100)-70, height: hp(25) }} >
             <ParallaxImage
                 source={item}
                 containerStyle={{ borderRadius: 30, flex: 1 }}

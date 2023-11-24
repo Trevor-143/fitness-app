@@ -8,6 +8,13 @@ export default function _layout() {
         screenOptions={{
             headerShown: false
         }}
-    />
+    >
+      <Stack.Screen
+        name='wallpapers'
+        options={{
+          presentation: 'fullScreenModal'
+        }}
+      />
+    </Stack>
   )
 }
