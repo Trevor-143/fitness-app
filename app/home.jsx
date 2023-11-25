@@ -43,8 +43,7 @@ export default function Home() {
       <View>
         <ImageSlider />
       </View>
-
-      <View className="flex-1 ">
+      <View className="flex-1">
         <Walls />
       </View>
 
